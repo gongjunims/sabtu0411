@@ -1,11 +1,15 @@
 import streamlit as st
 
+# ini bagian heading aplikasi Streamlit 
 st.title("Kuliah Praktikum Big Data")
 st.write("Arin - Sabtu 4 November 2023")
 st.write("# heading 1")
-st.write("## heading 2")
-st.write("### heading 3")
 
+# kinerja unit
+st.metric("Kinerja", 40, -1)
+st.metric("Response Time", 30, 20)
+
+# pilihan
 pilih1 = st.checkbox('YA')
 pilih2 = st.checkbox("tidak")
 

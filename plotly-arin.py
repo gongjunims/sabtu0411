@@ -2,8 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.title("Visualisasi Data Diamond")
+st.header("Visualisasi Data Diamond")
 st.write("by arin ^__^")
+st.write("2023")
 
 df = pd.read_csv("data/diamonds.csv")
 
@@ -17,7 +18,7 @@ plot = px.histogram(
     title = "Histogram Harga Diamonds"    
 )
 plot.update_layout(
-    xaxis_title = "Harga",
+    xaxis_title = "Harg",
     yaxis_title = "Jumlah"
 )
 
